@@ -39,6 +39,8 @@ jobs:
   build:
     name: Build MT7621 u-boot
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     strategy:
        fail-fast: False
 
